@@ -3,7 +3,7 @@ import { FaGithub } from "react-icons/fa6";
 import { FaLinkedinIn } from "react-icons/fa6";
 
 const Footer = () => {
-    
+    const year = new Date();
     const linkedin = "https://www.linkedin.com/in/marcelo-gabriel-casse/"
     const github = "https://github.com/marcelocasse"
     
@@ -13,7 +13,7 @@ const Footer = () => {
             
             <div className="flex justify-between items-center mb-4">
                 <span className="text-secondcolor text-2xl font-bold"><Link to="/">Marcelo Casse</Link></span>
-                <p>©️ 2024 Marcelo Casse. All rights reserved.</p>
+                <p>©️ {year.getFullYear()} Marcelo Casse. All rights reserved.</p>
 
                 <ul className="flex gap-4">
                     <li className="bg-white size-10 rounded-full bg-opacity-10 text-white flex justify-center items-center hover:text-secondcolor"><Link to={linkedin} target="_blank"><FaLinkedinIn className="text-2xl" /></Link></li>
