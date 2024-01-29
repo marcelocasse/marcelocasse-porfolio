@@ -1,19 +1,20 @@
-import Home from "./components/Home";
-import Nav from "./components/Nav";
+import Home from "./pages/Home";
+import Nav from "./pages/Nav";
 import {
   BrowserRouter as Router,
   Switch,
   Route,
   Link,
   BrowserRouter,
-  Routes
+  Routes,Navigate
 } from "react-router-dom";
-import Projects from "./components/Projects";
-import Footer from "./components/Footer";
-import Skills from "./components/Skills";
-import About from "./components/About";
-import Contact from "./components/Contact";
+import Projects from "./pages/Projects";
+import Footer from "./pages/Footer";
+import Skills from "./pages/Skills";
+import About from "./pages/About";
+import Contact from "./pages/Contact";
 import ScrollToTop from "./components/ScrollToTop";
+import NotPage from "./pages/NotPage";
 
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
           <Routes>
             <Route path="" element={[<Home></Home>,<Projects></Projects>,<Skills></Skills>,<About></About>]}></Route>
             <Route path="/contact" element={<Contact></Contact>}></Route>
+            <Route path="*" element={<NotPage></NotPage>}></Route>
           </Routes>
         </main>
 

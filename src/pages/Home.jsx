@@ -1,6 +1,6 @@
 import marcelo from "../assets/marcelo-casse-photo.jpg"
 import cv from "../assets/curriculum.pdf"
-import SectionContainer from "./SectionContainer";
+import SectionContainer from "../components/SectionContainer";
 
 const Home = () => {
     return (

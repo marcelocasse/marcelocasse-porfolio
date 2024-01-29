@@ -9,7 +9,7 @@ import { FaGitAlt } from "react-icons/fa";
 import { DiScrum } from "react-icons/di";
 import { FaBootstrap } from "react-icons/fa6";
 import { BiLogoTailwindCss } from "react-icons/bi";
-import SkillItem from "./SkillItem";
+import SkillItem from "../components/SkillItem";
 
 const Skills = () => {
     return (

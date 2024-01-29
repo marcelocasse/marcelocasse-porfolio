@@ -1,4 +1,3 @@
-import Contact from "./Contact";
 import { useNavigate } from "react-router-dom";
 
 const About = () => {

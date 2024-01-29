@@ -9,7 +9,7 @@ const Contact = () => {
                     <input type="email" name="email" id="email" placeholder="email@servidor.com" className="text-black p-2.5 rounded-lg"/>
                 </div>
                 <div className="flex flex-col mb-5">
-                    <label for="text" className="mb-2">Descripcion</label>
+                    <label for="text" className="mb-2">Description</label>
                     <textarea type="text" name="text" id="text" rows='4' placeholder="I need a landing page for ..." className="text-black p-2.5 rounded-lg"/>
                 </div>
                 <div className="mb-5">
