@@ -11,6 +11,7 @@ module.exports = {
       secondcolor :'#94E79B',
       threecolor : '#F9F871',
       grey : '#D9D9D9',
+      blackmatte : '#28282B',
       black: colors.black,
       white: colors.white,
     },

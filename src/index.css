@@ -41,7 +41,7 @@ code {
   width: 50px;
   color: #fff;
   cursor: pointer;
-  animation: movebtn 3s ease-in-out infinite;
+  animation:  3s ease-in-out infinite;
   transition: all .5s ease-in-out;
 }
 .icon-style:hover{
@@ -50,20 +50,15 @@ code {
   color: #0E2E2C;
   border: 2px solid #0E2E2C;
 }
-@keyframes movebtn {
-  0%{
-    transform: translateY(0px);
+
+@media only screen and (max-width: 575px){
+  .icon-position{
+    bottom: 100px;
   }
-  25%{
-    transform: translateY(20px);
-  }
-  50%{
-    transform: translateY(0px);
-  }
-  75%{
-    transform: translateY(-20px);
-  }
-  100%{
-    transform: translateY(0px);
+  .icon-style:hover{
+    background: initial;
+    color: initial;
+    color: initial;
+    border: initial
   }
 }

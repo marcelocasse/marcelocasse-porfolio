@@ -1,13 +1,6 @@
 import Home from "./pages/Home";
 import Nav from "./pages/Nav";
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link,
-  BrowserRouter,
-  Routes,Navigate
-} from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Projects from "./pages/Projects";
 import Footer from "./pages/Footer";
 import Skills from "./pages/Skills";

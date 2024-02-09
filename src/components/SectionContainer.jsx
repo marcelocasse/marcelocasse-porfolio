@@ -1,7 +1,7 @@
 
 const SectionContainer = (props) => {
     return (
-        <section id={props.id} class={`section ${props.class} text-center items-center grid grid-cols-10 gap-2 py-28 pb-32`}>
+        <section id={props.id} class={`section ${props.className} text-center items-center flex flex-col gap-6 pt-28 pb-32`}>
             {
                 props.children
             }
