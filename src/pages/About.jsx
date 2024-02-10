@@ -5,25 +5,25 @@ const About = () => {
     const Navigate = useNavigate()
     
     return (
-        <SectionContainer id="about">
+        <SectionContainer id="about" className="pt-28 pb-32">
             <div className="font-bold italic mb-5">
-                <h1 className="font-black text-secondcolor text-5xl lg:text-7xl">About me</h1>
+                <h1 className="font-black text-secondcolor text-5xl lg:text-7xl">Sobre mí</h1>
             </div>
             <article className="gap-4 flex flex-col text-start text-xl text-pretty lg:w-1/2">
                 <p>
-                    I'm a passionate Full Stack Web Developer with a creative approach
-                    and an analytical mind.
+                    Soy un apasionado Desarrollador Web Full Stack con un enfoque creativo y una mente analítica.
                 </p>
                 <p>
-                    Specialized in <span className="text-threecolor font-black">Django</span> and <span className="text-threecolor font-black">React</span>. I'm dedicated to building creative solutions to technological challenges.
+                    Especializado en <span className="text-threecolor font-black">Django</span> y <span className="text-threecolor font-black">React</span>.
+                    Me dedico a construir soluciones creativas a desafíos tecnológicos.
                 </p>
                 <p>
-                    I also like personal development, finances and UX/UI design.
+                    También me gusta el desarrollo personal, las finanzas y el diseño UX/UI.
                 </p>
             </article>
             
             <button type="button" className="col-span-4 col-start-4 rounded-full text-firstcolor 
-                bg-grey text-xl font-bold p-3 mt-10 lg:hover:bg-firstcolor lg:hover:text-white" onClick={() => Navigate('/contact')}>Let's work together</button>
+                bg-grey text-xl font-bold p-3 mt-10 lg:hover:bg-firstcolor lg:hover:text-white" onClick={() => Navigate('/contact')}>Trabajemos Juntos!</button>
             
         </SectionContainer>
     );

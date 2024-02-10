@@ -5,8 +5,8 @@ import SectionContainer from '../components/SectionContainer';
 
 const Projects = () => {
     return (
-        <SectionContainer id='projects'>
-            <h1 className="text-secondcolor font-black text-5xl lg:text-7xl italic mb-5">PROJECTS</h1>
+        <SectionContainer id='projects' className="pt-28 pb-32">
+            <h1 className="text-secondcolor font-black text-5xl lg:text-7xl italic mb-5">PROYECTOS</h1>
             <Card
                 title='MC BUS - Tu empresa de confianza'
                 image={bustime}

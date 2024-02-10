@@ -14,8 +14,8 @@ import SectionContainer from "../components/SectionContainer";
 
 const Skills = () => {
     return (
-        <SectionContainer id="skills">
-            <h1 className="text-secondcolor font-black text-5xl lg:text-7xl italic mb-5">SKILLS</h1>
+        <SectionContainer id="skills" className="pt-28 pb-32">
+            <h1 className="text-secondcolor font-black text-5xl lg:text-7xl italic mb-5">HABILIDADES</h1>
             <div className="w-full grid grid-cols-3 lg:grid-cols-5 items-center justify-center gap-4">
                 <SkillItem component={<FaCss3Alt className="text-4xl lg:text-7xl"/>} title='CSS3'></SkillItem>
                 <SkillItem component={<FaHtml5 className="text-4xl lg:text-7xl"/>} title='HTML5'></SkillItem>
